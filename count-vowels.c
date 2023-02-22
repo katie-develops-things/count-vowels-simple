@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "count-vowels.h"
 
 
-int get_num_vowels(char filepath[512]){
+int get_num_vowels(char filepath[256]){
 
     FILE* fp = fopen(filepath, "r");
 
@@ -12,7 +13,7 @@ int get_num_vowels(char filepath[512]){
         return 1;
     }
 
-    char curr;
+    char* curr;
 
     int a = 0;
     int e = 0;

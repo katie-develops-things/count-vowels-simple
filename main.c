@@ -14,6 +14,7 @@ int main(int argc, char *argv[]){
     char filename[256];
     strcpy(filename, argv[1]);
 
+    printf("Filename: %s\n", filename);
     get_num_vowels(filename);
 
     return 0;
