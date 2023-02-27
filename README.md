@@ -1,4 +1,4 @@
-# Count Vowels in a File
+# Count Vowels in a File (Simple Version)
 
 This simple program in C displays the count of the vowels A, E, I, O, and U contained in a file. The file is specified by the user as a command line argument when the program is called to be executed. This program is only to be run on Linux systems.
 
